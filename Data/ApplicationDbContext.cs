@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using AMARILLO.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace SC_AZURE.Data
+namespace AMARILLO.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -12,5 +13,7 @@ namespace SC_AZURE.Data
             : base(options)
         {
         }
+       
+      
     }
 }
