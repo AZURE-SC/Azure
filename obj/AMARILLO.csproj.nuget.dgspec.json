@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Downloads\\Azure-1\\AMARILLO.csproj": {}
+    "D:\\Proyectos\\oficialweb\\Azure\\AMARILLO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Downloads\\Azure-1\\AMARILLO.csproj": {
+    "D:\\Proyectos\\oficialweb\\Azure\\AMARILLO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Azure-1\\AMARILLO.csproj",
+        "projectUniqueName": "D:\\Proyectos\\oficialweb\\Azure\\AMARILLO.csproj",
         "projectName": "AMARILLO",
-        "projectPath": "C:\\Users\\DELL\\Downloads\\Azure-1\\AMARILLO.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Downloads\\Azure-1\\obj\\",
+        "projectPath": "D:\\Proyectos\\oficialweb\\Azure\\AMARILLO.csproj",
+        "packagesPath": "C:\\Users\\Neyss\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\oficialweb\\Azure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Neyss\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
