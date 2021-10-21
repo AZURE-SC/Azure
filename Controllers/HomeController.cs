@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AMARILLO.Models;
+using AZURE_FINAL.Models;
 
-namespace AMARILLO.Controllers
+namespace AZURE_FINAL.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,0 +1,66 @@
+@model IEnumerable<AZURE_FINAL.Models.Pelicula>
+
+@{
+    ViewData["Title"] = "Lista de peliculas";
+}
+<br>
+<br>
+
+<h1>LISTA DE ASISTENCIAS</h1>
+<a asp-action="ExportarExcel">Exporta a Excel</a>
+
+
+
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ape_paterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ape_materno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curso)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ape_paterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ape_materno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curso)
+            </td>
+            <td>
+               
+            </td>
+        </tr>
+       
+}
+    </tbody>
+
+</table>
+<br>
+<h1>REGISTRO MEDIANTE AZURE IOT CENTRAL - GEOLOCALIZACION</h1>
+<BR>
+<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=322f5be8-6ec2-4044-b4ee-7dc4b893111e&autoAuth=true&ctid=98201fef-d9f6-4e68-84f5-c2705074e342&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>

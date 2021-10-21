@@ -1,6 +1,6 @@
 using System;
 
-namespace AMARILLO.Models
+namespace AZURE_FINAL.Models
 {
     public class ErrorViewModel
     {
